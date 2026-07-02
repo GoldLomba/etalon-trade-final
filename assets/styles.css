@@ -446,15 +446,6 @@ h1, h2, h3, h4 { color: var(--c-navy); }
 
 .section-head p { margin-top: 14px; color: var(--c-text-soft); font-size: 16.5px; }
 
-.section-banner {
-  width: 100%;
-  height: auto;
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  margin-bottom: 40px;
-  display: block;
-}
-
 /* ---------- Карточки ---------- */
 
 .grid { display: grid; gap: 26px; }
