@@ -481,6 +481,11 @@ a.card { color: var(--c-text); }
   transition: .28s;
 }
 
+.card .icon svg, .contact-row .ci svg {
+  width: 55%;
+  height: 55%;
+}
+
 .card:hover .icon { transform: scale(1.08) rotate(-4deg); }
 
 /* чередование пастельных чипов */
