@@ -527,6 +527,14 @@ a.card { color: var(--c-text); }
   margin-bottom: 16px;
 }
 
+.card .tag-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
 .grid > .card:nth-child(6n+2) .tag { background: var(--chip-violet-bg); color: var(--chip-violet); }
 .grid > .card:nth-child(6n+3) .tag { background: var(--chip-orange-bg); color: var(--chip-orange); }
 .grid > .card:nth-child(6n+4) .tag { background: var(--chip-blue-bg); color: var(--chip-blue); }
