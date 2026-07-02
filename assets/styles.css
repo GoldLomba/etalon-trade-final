@@ -527,14 +527,6 @@ a.card { color: var(--c-text); }
   margin-bottom: 16px;
 }
 
-.card .tag-icon {
-  width: 44px;
-  height: 44px;
-  border-radius: 12px;
-  object-fit: cover;
-  margin-bottom: 16px;
-}
-
 .grid > .card:nth-child(6n+2) .tag { background: var(--chip-violet-bg); color: var(--chip-violet); }
 .grid > .card:nth-child(6n+3) .tag { background: var(--chip-orange-bg); color: var(--chip-orange); }
 .grid > .card:nth-child(6n+4) .tag { background: var(--chip-blue-bg); color: var(--chip-blue); }
@@ -608,6 +600,8 @@ a.card { color: var(--c-text); }
 .step:nth-child(2)::before { background: var(--chip-violet-bg); color: var(--chip-violet); }
 .step:nth-child(3)::before { background: var(--chip-orange-bg); color: var(--chip-orange); }
 .step:nth-child(4)::before { background: var(--chip-blue-bg); color: var(--chip-blue); }
+
+.steps.no-numbers .step::before { display: none; }
 
 .step h3 { font-size: 17px; margin-bottom: 8px; }
 .step p { font-size: 14.5px; color: var(--c-text-soft); }
