@@ -645,6 +645,7 @@ a.card { color: var(--c-text); }
 
 .cta h2 { font-size: clamp(23px, 2.7vw, 31px); font-weight: 700; margin-bottom: 8px; color: #fff; }
 .cta p { color: rgba(255, 255, 255, .85); max-width: 560px; }
+.cta p a { color: #fff; text-decoration: underline; }
 .cta .btn { flex-shrink: 0; position: relative; z-index: 1; }
 
 /* ---------- FAQ ---------- */
