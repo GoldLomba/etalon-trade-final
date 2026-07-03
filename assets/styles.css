@@ -564,6 +564,7 @@ a.card { color: var(--c-text); }
 /* ---------- Шаги ---------- */
 
 .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 26px; counter-reset: step; }
+.steps-2 { grid-template-columns: repeat(2, 1fr); max-width: 720px; margin: 0 auto; }
 
 .step {
   background: var(--c-surface);
