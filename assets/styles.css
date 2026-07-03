@@ -571,6 +571,10 @@ a.card { color: var(--c-text); }
   padding: 30px 28px;
   counter-increment: step;
   transition: .28s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .step:hover { transform: translateY(-6px); box-shadow: var(--shadow-hover); }
