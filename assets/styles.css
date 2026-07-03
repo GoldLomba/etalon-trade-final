@@ -471,6 +471,7 @@ a.card { color: var(--c-text); }
 
 .card .card-photo {
   width: calc(100% + 60px);
+  max-width: none;
   height: auto;
   margin: -32px -30px 22px;
   border-radius: var(--radius) var(--radius) 0 0;
@@ -581,6 +582,7 @@ a.card { color: var(--c-text); }
 
 .step .step-photo {
   width: calc(100% + 56px);
+  max-width: none;
   height: auto;
   margin: -30px -28px 20px;
   border-radius: var(--radius) var(--radius) 0 0;
